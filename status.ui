@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>status</class>
+ <widget class="QMainWindow" name="status">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>558</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>STATUS_A_TMHMAΤΟΣ</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../01.ALKIS_CODE/02.PHOTO/MILK_24X24.ico</normaloff>../../01.ALKIS_CODE/02.PHOTO/MILK_24X24.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ΧΡΗΣΤΗΣ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>WORK</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QComboBox" name="onoma">
+      <item>
+       <property name="text">
+        <string>ΠΟΛΥΖΟΥΔΗΣ ΧΡΥΣΟΣΤΟΜΟΣ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΑΜΑΝΑΤΙΔΗΣ ΑΛΚΙΒΙΑΔΗΣ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΑΔΑΜΙΔΗΣ ΚΩΝΣΤΑΝΤΙΝΟΣ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΘΕΟΦΑΝΗΣ ΚΩΝΤΑΝΤΙΝΟΥ</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QComboBox" name="work">
+      <property name="toolTip">
+       <string>ΔΙΑΛΕΞΕ ΠΕΡΙΓΡΑΦΗ</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>ΠΑΡΑΤΗΡΗΣΕΙΣ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NESTING-ΣΧΕΔΙΑ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΣΧΕΔΙΑΣΗ R/D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΣΧΕΔΙΑΣΗ ΠΡΟΪΟΝΤΩΝ MILKPLAN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΣΧΕΔΙΑΣΗ ΕΙΔΙΚΩΝ ΠΡΟΪΟΝΤΩΝ MILKPLAN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΣΧΕΔΙΑΣΗ ΦΑΣΟΝ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΒΛΑΒΗ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΑΡΧΕΙΟΘΕΤΗΣΗ ΚΩΔΙΚΩΝ - ΣΧΕΔΙΩΝ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΥΠΟΛΟΓΙΣΜΟΣ Α΄ ΥΛΗΣ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΠΑΡΑΓΩΓΗΣ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΚΟΣΤΟΛΟΓΙΑ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΠΑΡΑΚΟΛΟΥΘΗΣΗ ΠΑΡΑΓΩΓΗΣ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΠΡΟΣΦΟΡΑ FASON</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΠΡΟΣΦΟΡΑ ΕΡΓΑΖΟΜΕΝΩΝ MILKPLAN</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΒΕΛΤΙΩΣΕΙΣ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΔΙΑΛΕΙΜΜΑ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΑΔΕΙΑ</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ΑΣΘΕΝΙΑ</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="3" colspan="2">
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ΠΟΣ.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ΗΜΕΡ.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6" colspan="2">
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ΑΠΟ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8">
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ΕΩΣ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="9">
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ΔΙΑΡΚΕΙΑ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QLineEdit" name="txt_onoma"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="txt_work"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLineEdit" name="txt_posot"/>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLineEdit" name="shmera_2"/>
+    </item>
+    <item row="2" column="6" colspan="2">
+     <widget class="QLineEdit" name="txt_apo">
+      <property name="inputMethodHints">
+       <set>Qt::ImhTime</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="8">
+     <widget class="QLineEdit" name="txt_ews"/>
+    </item>
+    <item row="2" column="9">
+     <widget class="QLineEdit" name="diarkeia"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>ΠΑΡΑΤΗΡΗΣΕΙΣ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="10">
+     <widget class="QLineEdit" name="txt_parat"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="preview">
+      <property name="toolTip">
+       <string>ΠΑΤΗΣΤΕ ΟΤΑΝ ΟΛΟΚΛΗΡΩΘΕΙ Η ΕΡΓΑΣΙΑ ΣΑΣ</string>
+      </property>
+      <property name="text">
+       <string>PREVIEW</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="addrow">
+      <property name="toolTip">
+       <string>ΠΑΤΗΣΤΕ ΓΙΑ ΝΑ ΠΕΡΑΣΤΕΙ ΣΤΗΝ ΛΙΣΤΑ</string>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4" colspan="3">
+     <widget class="QPushButton" name="auto_2">
+      <property name="toolTip">
+       <string>ΠΡΟΒΛΕΨΕΙΣ ΜΕΡΑΣ</string>
+      </property>
+      <property name="text">
+       <string>AUTO</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="7" colspan="2">
+     <widget class="QPushButton" name="deleterow">
+      <property name="toolTip">
+       <string>ΔΙΑΓΡΑΦΗ ΤΗΝ ΕΠΕΛΕΓΜΕΝΗ ΣΕΙΡΑ</string>
+      </property>
+      <property name="text">
+       <string>ΔΙΑΓΡΑΨΕ ΣΕΙΡΑ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="9">
+     <widget class="QPushButton" name="clear">
+      <property name="toolTip">
+       <string>ΣΒΗΝΕΙ ΟΛΕΣ ΤΙΣ ΚΑΤΑΧΩΡΗΣΕΙΣ</string>
+      </property>
+      <property name="text">
+       <string>CLEAR_ALL</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="10">
+     <widget class="QTableWidget" name="excel">
+      <property name="focusPolicy">
+       <enum>Qt::ClickFocus</enum>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::CustomContextMenu</enum>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::AllEditTriggers</set>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="rowCount">
+       <number>0</number>
+      </property>
+      <property name="columnCount">
+       <number>7</number>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>90</number>
+      </attribute>
+      <attribute name="horizontalHeaderHighlightSections">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderMinimumSectionSize">
+       <number>26</number>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderCascadingSectionResizes">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>25</number>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>20</number>
+      </attribute>
+      <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>ONOMA</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ΠΕΡΙΓΡΑΦΗ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ΠΟΣ.</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ΗΜΕΡ.</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ΑΠΟ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ΕΩΣ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ΠΑΡΑΤΗΡΗΣΕΙΣ</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QPushButton" name="browse_xl">
+      <property name="toolTip">
+       <string>ΔΙΑΛΕΞΤΕ ΤΟ EXCEL ΠΟΥ ΘΕΛΕΤΕ ΝΑ ΜΠΟΥΝ ΟΙ ΚΑΤΑΧΩΡΗΣΕΙΣ</string>
+      </property>
+      <property name="text">
+       <string>ΑΝΟΙΞΕ ΤΟ ΑΡΧΕΙΟ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="9">
+     <widget class="QPushButton" name="submit_excel">
+      <property name="toolTip">
+       <string>ΑΠΟΘΗΚΕΥΣΗ ΣΤΟ EXCEL ΠΑΤΗΣΤΕ ΜΙΑ ΦΟΡΑ</string>
+      </property>
+      <property name="text">
+       <string>ΑΠΟΣΤΟΛΗ ΣΤΟ EXCEL</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1" colspan="8">
+     <widget class="QTextBrowser" name="xl_directory">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="9">
+     <widget class="QPushButton" name="about">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>ΠΡΟΒΛΕΨΕΙΣ ΜΕΡΑΣ</string>
+      </property>
+      <property name="text">
+       <string>about</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="send">
+   <property name="text">
+    <string>send</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>onoma</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>txt_onoma</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>66</x>
+     <y>100</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>work</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>txt_work</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>195</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>186</x>
+     <y>100</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>clear</sender>
+   <signal>clicked()</signal>
+   <receiver>excel</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>870</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>470</x>
+     <y>375</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>addrow()</slot>
+ </slots>
+</ui>
