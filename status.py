@@ -8,7 +8,7 @@ from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QMainWindow, QFileDialog, QMessageBox
 from PyQt5 import QtGui
 from PyQt5 import QtWidgets
-from .Ui_status import Ui_status
+from .Ui_status import Ui_status #hi
 from openpyxl import * 
 from openpyxl.styles import *                 
 #from openpyxl.styles.colors import *
@@ -155,4 +155,5 @@ class status(QMainWindow, Ui_status):
         ABOUT ME
         """
         QMessageBox.about(self, "copyright STATUS_A_TMHMATOS.VC1 alkis amanatidis", "creator αμανατιδης αλκης \nemail:amanatidisalkis@gmail.com ")
+
 
